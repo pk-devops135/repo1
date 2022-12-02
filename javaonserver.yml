@@ -1,7 +1,0 @@
----
-- hosts: localhost
-  become: true
-  become_user: root
-  tasks:
-  - name: install java 11 on server
-    yum: name=java-11 state=present
